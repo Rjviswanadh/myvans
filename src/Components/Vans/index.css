@@ -1,0 +1,29 @@
+img {
+  height: 50%;
+  width: 50%;
+  border-radius: 10px;
+}
+.vansizing {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 360px) {
+  .vansizing {
+    width: 300px;
+    flex-wrap: wrap;
+  }
+}
+.display-data {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+h1,
+p {
+  color: black;
+}
