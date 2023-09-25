@@ -13,7 +13,7 @@ const Hostvansdetails = () => {
   console.log(hostvans);
   return (
     <div className="bg-info p-5 m-5 vans-info">
-      <Link to=".." relative="path" className="back-home">
+      <Link to="/host/vans" relative="path" className="back-home">
         Back to vans
       </Link>
       <div>

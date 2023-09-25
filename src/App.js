@@ -14,6 +14,7 @@ import Hostphotos from "./Components/Hostpricingphotos/Hostphotos";
 import Hostpricing from "./Components/Hostpricingphotos/Hostpricing";
 import Hostvaninfo from "./Components/Hostpricingphotos/Hostvaninfo";
 import "./server";
+import "./index.css";
 
 function App() {
   return (

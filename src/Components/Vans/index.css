@@ -5,12 +5,12 @@ img {
 }
 .vansizing {
   margin-top: 10px;
+  width: 100%;
+  text-decoration: none;
   display: flex;
   flex-direction: column;
-  width: 50%;
-  text-decoration: none;
-  justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 @media screen and (max-width: 360px) {
   .vansizing {
@@ -19,11 +19,20 @@ img {
   }
 }
 .display-data {
+  flex-grow: inherit;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background-size: cover;
 }
 h1,
 p {
   color: black;
+}
+
+.eachvan {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  flex-wrap: wrap;
 }

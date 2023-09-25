@@ -12,10 +12,10 @@ function Vans() {
 
   const displayData = Vans.map((eachVan) => {
     return (
-      <div key={eachVan.id} className="vansizing">
+      <div key={eachVan.id} className="eachvan">
         <Link to={`${eachVan.id}`} className="vansizing">
           <img src={eachVan.imageUrl} alt={eachVan.name} />
-          <h1>{eachVan.name}</h1>
+          <h1 className="d-inline">{eachVan.name}</h1>
           <p>
             {eachVan.price}
             <span>/day</span>

@@ -4,7 +4,7 @@ import "./index.css";
 const Header = () => {
   return (
     <>
-      <nav className="d-flex justify-content-around header mb-3">
+      <nav className="d-flex justify-content-around header mb-3 bg-info p-3">
         <h1>#VANLIFE</h1>
         <div className="nav-bar">
           <Link className="nav-links" to="/">
