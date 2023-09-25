@@ -26,7 +26,7 @@ function VanDetails() {
               <span> {vandetails.price} /day</span>
             </p>
             <p className="detail-para">
-              <span>Description : </span>
+              <span className="describe">Description : </span>
               {vandetails.description}
             </p>
           </div>

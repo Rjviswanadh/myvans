@@ -36,3 +36,8 @@ p {
   width: 50%;
   flex-wrap: wrap;
 }
+input {
+  display: flex;
+  margin-left: 30%;
+  align-items: center;
+}
