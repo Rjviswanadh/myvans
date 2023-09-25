@@ -1,7 +1,18 @@
 .van-details {
   height: 100vh;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.detail-para {
+  font-weight: normal;
+}
+.van-img {
+  height: 300px;
+  width: 300px;
+}
+.detail-para span {
+  font-weight: bold;
 }

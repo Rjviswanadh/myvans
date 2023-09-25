@@ -15,13 +15,20 @@ function VanDetails() {
     <div>
       {vandetails ? (
         <div className="van-details">
-          <img src={vandetails.imageUrl} alt={vandetails.name} />
+          <img
+            src={vandetails.imageUrl}
+            alt={vandetails.name}
+            className="van-img"
+          />
           <div className="mt-3 van-details">
             <p>
               Price:
               <span> {vandetails.price} /day</span>
             </p>
-            <p>{vandetails.description}</p>
+            <p className="detail-para">
+              <span>Description : </span>
+              {vandetails.description}
+            </p>
           </div>
         </div>
       ) : (
